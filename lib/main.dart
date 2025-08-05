@@ -6,6 +6,7 @@ import 'myContainer.dart';
 import 'myColumnAndRow.dart';
 import 'myButton.dart';
 import 'myButton_2.dart';
+import 'myGestures.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: myButton_2(),
+      home: myGestures(),
     );
   }
 }
