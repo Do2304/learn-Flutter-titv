@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'myScaffold.dart';
 import 'myAppBar.dart';
 import 'myText.dart';
+import 'myContainer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: myText(),
+      home: myContainer(),
     );
   }
 }
