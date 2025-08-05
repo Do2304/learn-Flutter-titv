@@ -3,6 +3,7 @@ import 'myScaffold.dart';
 import 'myAppBar.dart';
 import 'myText.dart';
 import 'myContainer.dart';
+import 'myColumnAndRow.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: myContainer(),
+      home: myColumnAndRow(),
     );
   }
 }
