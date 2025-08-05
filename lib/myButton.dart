@@ -35,7 +35,6 @@ class myButton extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            //learn Button
             SizedBox(height: 50),
             ElevatedButton(
               onPressed: () {
@@ -79,6 +78,21 @@ class myButton extends StatelessWidget {
                 print("FloatingActionButton");
               },
               child: Icon(Icons.zoom_out_rounded),
+            ),
+            SizedBox(height: 20),
+
+            // learn Inkwell
+            InkWell(
+              onTap: () {
+                print("InkWell pressed");
+              },
+              child: Container(
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.blue),
+                ),
+                child: Text("Button tuỳ chỉnh với InkWell"),
+              ),
             ),
           ],
         ),
