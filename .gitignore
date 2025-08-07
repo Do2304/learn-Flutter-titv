@@ -43,3 +43,31 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart Generated
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.h
+**/GeneratedPluginRegistrant.m
+**/generated_plugin_registrant.dart
+
+# CMake & native build files (nếu dùng camera, image_picker, etc.)
+*.cmake
+*.g.dart
+*.h
+*.cc
+*.so
+CMakeCache.txt
+cmake-build-*
+
+# Xcode related
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+ios/Pods/
+
+# VS Code (nếu bạn không dùng settings riêng trong team)
+.vscode/
+
+# Misc
+*.orig
+

@@ -16,6 +16,7 @@ import 'widget_02/form_RadioListTile.dart';
 import 'widget_02/form_Checkbox.dart';
 import 'widget_02/form_DatePicker.dart';
 import 'widget_02/form_ScrollView.dart';
+import 'widget_02/form_ImagePicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: form_ScrollView(),
+      home: form_ImagePicker(),
     );
   }
 }
